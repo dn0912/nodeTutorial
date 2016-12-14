@@ -1,0 +1,15 @@
+{
+  "name": "clock_co",
+  "version": "1.0.0",
+  "description": "Tutorial von http://www.clock.co.uk/blog/a-simple-website-in-node-js-2016-edition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Duc Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}
