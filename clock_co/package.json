@@ -4,13 +4,13 @@
   "description": "Tutorial von http://www.clock.co.uk/blog/a-simple-website-in-node-js-2016-edition",
   "main": "index.js",
   "scripts": {
-  "build-css": "stylus source/stylesheets/index.styl -o static/css",
-  "watch-css": "stylus source/stylesheets/index.styl -o static/css -w",
-  "clean": "rm -rf static/css && mkdir -p static/css",
-  "build": "npm run clean && npm run build-css",
-  "watch": "npm run clean && npm run watch-css & nodemon server -e js,jade",
-  "start": "node server"
- },
+    "build-css": "stylus source/stylesheets/index.styl -o static/css",
+    "watch-css": "start /b stylus source/stylesheets/index.styl -o static/css -w",
+    "clean": "rmdir static /s/q && mkdir static && cd static && mkdir css && cd .. && cd ..",
+    "build": "npm run clean && npm run build-css",
+    "watch": "npm run clean && npm run watch-css & nodemon server -e js,jade",
+    "start": "node server"
+  },
   "author": "Duc Nguyen",
   "license": "ISC",
   "dependencies": {
